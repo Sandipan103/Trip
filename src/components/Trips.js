@@ -17,7 +17,7 @@ const Trip = (props) => {
       <Grid container spacing={2}>
         {tour.map((t) => {
           return (
-            <Grid item xs={4}>
+            <Grid item xs={11} sm={6} md={4}>
               <Card  {...t} removeTour={removeTour}
                 // name={t.name}
                 // description={t.description}
